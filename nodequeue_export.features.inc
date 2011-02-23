@@ -150,7 +150,7 @@ function _nodequeue_export_store_queue_data($data) {
       'reverse' => $data->reverse,
       'link' => $data->link,
       'link_remove' => $data->link_remove,
-      'owner' => $queue->owner,
+      'owner' => $data->owner,
       'roles' => $data->roles,
       'types' => $data->types,
       'i18n' => $data->i18n,
